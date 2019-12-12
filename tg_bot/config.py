@@ -13,7 +13,7 @@ class Config(object):	from telegram.ext import CommandHandler, Filters, MessageH
 
 from telegram.utils.helpers import escape_markdown
     # REQUIRED	
-    API_KEY = "928406379:AAF8zPqOyRRlAITbt4Tm2xADQHra5h6XO1c"	from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
+    API_KEY = "956165209:AAE44fhRsNKsLFJpt5sxN8Yafh1jXJgARjU"	from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
     OWNER_ID = "843714186"  # If you dont know, run the bot and do /id in your private chat with it	    ALLOW_EXCL
     OWNER_USERNAME = "Zainstech"	# needed to dynamically load modules
 
@@ -29,7 +29,7 @@ from telegram.utils.helpers import escape_markdown
     URL = None	you can find what makes me tick [here](github.com/zainulhibath/tgbot)!
 
     # OPTIONAL	My owner is @ZainsTech
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.	
+    SUDO_USERS = [843714186]  # List of id's (not usernames) for users which have sudo access to the bot.	
     SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.	Feel free to submit pull requests on github, or to contact my support group, @MarieSupport, with any bugs, questions \
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.	or feature requests you might have :)
     DONATION_LINK = None  # EG, paypal	I also have a news channel, @MarieNews for announcements on new features, downtime, etc.
