@@ -1,6 +1,6 @@
 tg_bot/config.py
-*.pyc
-.idea/
+.pyc
+.idea
 .project
 .pydevproject
 .directory
